@@ -16,33 +16,7 @@ A modern, responsive portfolio website built with **Next.js 15**, **React 19**, 
 - Poppins font family via Google Fonts
 - Font Awesome icons
 
-## Getting Started
 
-### Prerequisites
-
-- Node.js 18+ installed
-- npm, yarn, pnpm, or bun
-
-### Installation
-
-1. Clone the repository or navigate to the project directory:
-```bash
-cd my-cv
-```
-
-2. Install dependencies:
-```bash
-npm install
-```
-
-3. Run the development server:
-```bash
-npm run dev
-```
-
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-The page auto-updates as you edit files.
 
 ## Project Structure
 
