@@ -1,0 +1,129 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #3b82f6, #ec4899);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.card-hover {
+  transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -2px;
+  left: 0;
+  background: linear-gradient(90deg, #3b82f6, #ec4899);
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.hero-pattern {
+  background-image: radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.2) 0%, transparent 50%);
+}
+
+.skill-bar {
+  height: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6, #ec4899);
+  border-radius: 4px;
+  transition: width 1s ease-in-out;
+}
+
+.floating {
+  animation: floating 6s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.spline-wrapper {
+  height: 175%;
+  width: 125%;
+  max-width: 380px;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 1s ease, transform 1s ease;
+  align-items: center;
+}
+
+.spline-wrapper.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+spline-viewer {
+  width: 100%;
+  height: 100%;
+}
+
+.hover-text {
+  position: absolute;
+  bottom: 20px;
+  left: 25%;
+  background: #000000;
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  width: 70%;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  z-index: 10;
+}
