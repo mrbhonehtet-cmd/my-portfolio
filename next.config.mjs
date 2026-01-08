@@ -16,7 +16,8 @@ const nextConfig = {
       },
     ],
   },
-  webpack(config) {
+  // Explicitly use webpack instead of Turbopack to maintain compatibility with GLB loader
+  webpack: (config, { webpack }) => {
     // Allow GLB files to be imported
     config.module.rules.push({
       test: /\.(glb|gltf)$/,
@@ -27,6 +28,12 @@ const nextConfig = {
     });
 
     return config;
+  },
+  // Disable Turbopack explicitly
+  experimental: {
+    turbo: {
+      rules: {},
+    },
   },
 };
 
