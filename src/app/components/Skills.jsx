@@ -42,40 +42,56 @@ export default function Skills() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-            My <span className="gradient-text">Skills</span>
+            My <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">Skills</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-pink-500 mx-auto"></div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          {/* Left Column */}
           <div>
             <h3 className="text-2xl font-bold mb-8 text-white">Technical Skills</h3>
             <div className="space-y-6">
               {skillsLeft.map((s) => (
                 <div key={s.name}>
                   <div className="flex justify-between mb-2">
-                    <span className="font-medium">{s.name}</span>
+                    {/* CHANGED: Added gradient classes here */}
+                    <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+                      {s.name}
+                    </span>
                     <span className="text-gray-300">{s.percent}%</span>
                   </div>
                   <div className="skill-bar">
-                    <div className="skill-progress" data-width={`${s.percent}%`} style={{ width: `${s.percent}%` }}></div>
+                    <div 
+                      className="skill-progress" 
+                      data-width={`${s.percent}%`} 
+                      style={{ width: `${s.percent}%` }}
+                    ></div>
                   </div>
                 </div>
               ))}
             </div>
           </div>
 
+          {/* Right Column */}
           <div>
             <h3 className="text-2xl font-bold mb-8 text-white">Professional Skills</h3>
             <div className="space-y-6">
               {skillsRight.map((s) => (
                 <div key={s.name}>
                   <div className="flex justify-between mb-2">
-                    <span className="font-medium">{s.name}</span>
+                    {/* CHANGED: Added gradient classes here */}
+                    <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
+                      {s.name}
+                    </span>
                     <span className="text-gray-300">{s.percent}%</span>
                   </div>
                   <div className="skill-bar">
-                    <div className="skill-progress" data-width={`${s.percent}%`} style={{ width: `${s.percent}%` }}></div>
+                    <div 
+                      className="skill-progress" 
+                      data-width={`${s.percent}%`} 
+                      style={{ width: `${s.percent}%` }}
+                    ></div>
                   </div>
                 </div>
               ))}
@@ -88,35 +104,35 @@ export default function Skills() {
           <div className="flex flex-wrap justify-center gap-6">
             <div className="bg-gray-700 rounded-lg p-6 flex flex-col items-center w-24 hover:bg-gray-600 transition duration-300">
               <i className="fab fa-html5 text-4xl text-orange-500 mb-2"></i>
-              <span className="text-sm">HTML5</span>
+              <span className="text-sm text-gray-200">HTML5</span>
             </div>
             <div className="bg-gray-700 rounded-lg p-6 flex flex-col items-center w-24 hover:bg-gray-600 transition duration-300">
               <i className="fab fa-css3-alt text-4xl text-blue-500 mb-2"></i>
-              <span className="text-sm">CSS3</span>
+              <span className="text-sm text-gray-200">CSS3</span>
             </div>
             <div className="bg-gray-700 rounded-lg p-6 flex flex-col items-center w-24 hover:bg-gray-600 transition duration-300">
               <i className="fab fa-js text-4xl text-yellow-400 mb-2"></i>
-              <span className="text-sm">JavaScript</span>
+              <span className="text-sm text-gray-200">JavaScript</span>
             </div>
             <div className="bg-gray-700 rounded-lg p-6 flex flex-col items-center w-24 hover:bg-gray-600 transition duration-300">
               <i className="fa-brands fa-python text-4xl text-blue-400 mb-2"></i>
-              <span className="text-sm">Python</span>
+              <span className="text-sm text-gray-200">Python</span>
             </div>
             <div className="bg-gray-700 rounded-lg p-6 flex flex-col items-center w-24 hover:bg-gray-600 transition duration-300">
               <i className="fab fa-node-js text-4xl text-green-600 mb-2"></i>
-              <span className="text-sm">Node.js</span>
+              <span className="text-sm text-gray-200">Node.js</span>
             </div>
             <div className="bg-gray-700 rounded-lg p-6 flex flex-col items-center w-24 hover:bg-gray-600 transition duration-300">
               <i className="fab fa-figma text-4xl text-purple-500 mb-2"></i>
-              <span className="text-sm">Figma</span>
+              <span className="text-sm text-gray-200">Figma</span>
             </div>
             <div className="bg-gray-700 rounded-lg p-6 flex flex-col items-center w-24 hover:bg-gray-600 transition duration-300">
               <i className="fa-brands fa-react text-4xl text-blue-500 mb-2"></i>
-              <span className="text-sm">React</span>
+              <span className="text-sm text-gray-200">React</span>
             </div>
             <div className="bg-gray-700 rounded-lg p-6 flex flex-col items-center w-24 hover:bg-gray-600 transition duration-300">
               <i className="fab fa-git-alt text-4xl text-orange-600 mb-2"></i>
-              <span className="text-sm">Git</span>
+              <span className="text-sm text-gray-200">Git</span>
             </div>
           </div>
         </div>
