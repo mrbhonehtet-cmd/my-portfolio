@@ -16,7 +16,7 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-12 md:mb-0">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white">
               Hi, I'm <span className="gradient-text"><br />Saw Bhone Htet</span>
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-300">
