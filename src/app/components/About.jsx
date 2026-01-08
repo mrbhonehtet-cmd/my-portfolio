@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-900">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 relative z-10">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
             <span className="gradient-text">About</span> Me
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-pink-500 mx-auto"></div>
@@ -22,7 +22,7 @@ export default function About() {
           
           {/* Content section with padding to accommodate the overlapping card */}
           <div className="md:w-2/3 w-2/3 md:pl-16 pt-60 md:pt-5 relative z-10">
-            <h3 className="text-5xl font-bold mb-6">Who am I?</h3>
+            <h3 className="text-5xl font-bold mb-6 text-white">Who am I?</h3>
             <p className="text-gray-300 md:text-2xl text-justify text-1xl mb-6">
 I am a dynamic young professional dedicated to bridging the gap between creativity and technology. My journey into the digital world began with a simple curiosity about how websites work, which quickly evolved into a passion for building clean, user-focused interfaces.
 As a Junior Frontend & Backend Developer and UI/UX Designer, I stand at the intersection of technical precision and artistic innovation. I specialize in building responsive applications using HTML, CSS, JavaScript, and React, while also leveraging Python to support backend functionality.
@@ -36,7 +36,7 @@ As a Junior Frontend & Backend Developer and UI/UX Designer, I stand at the inte
                   <i className="fas fa-calendar-alt text-2xl" />
                 </div>
                 <div>
-                  <h4 className="font-bold">Experience</h4>
+                  <h4 className="font-bold text-white">Experience</h4>
                   <p className="text-gray-300">2+ Years</p>
                 </div>
               </div>
@@ -45,7 +45,7 @@ As a Junior Frontend & Backend Developer and UI/UX Designer, I stand at the inte
                   <i className="fas fa-project-diagram text-2xl" />
                 </div>
                 <div>
-                  <h4 className="font-bold">Projects</h4>
+                  <h4 className="font-bold text-white">Projects</h4>
                   <p className="text-gray-300">10+ Completed</p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ As a Junior Frontend & Backend Developer and UI/UX Designer, I stand at the inte
                   <i className="fas fa-award text-2xl" />
                 </div>
                 <div>
-                  <h4 className="font-bold">Awards</h4>
+                  <h4 className="font-bold text-white">Awards</h4>
                   <p className="text-gray-300">2 Won</p>
                 </div>
               </div>
