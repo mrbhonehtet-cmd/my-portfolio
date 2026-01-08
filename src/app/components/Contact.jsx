@@ -5,7 +5,7 @@ export default function Contact() {
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
             Get In <span className="gradient-text">Touch</span>
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-pink-500 mx-auto"></div>
@@ -43,7 +43,7 @@ export default function Contact() {
 
           <div className="lg:w-1/2">
             <div className="bg-gray-900 rounded-xl p-8 h-full">
-              <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
+              <h3 className="text-2xl font-bold mb-6 gradient-text">Contact Information</h3>
               <p className="text-gray-300 mb-8">
                 I'm available for freelance work and full-time opportunities. Let's create something amazing together!
               </p>
@@ -54,7 +54,7 @@ export default function Contact() {
                     <i className="fas fa-map-marker-alt text-xl"></i>
                   </div>
                   <div className="ml-4">
-                    <h4 className="font-bold">Location</h4>
+                    <h4 className="font-bold gradient-text">Location</h4>
                     <p className="text-gray-300">Yangon tharkayta, Myanmar</p>
                   </div>
                 </div>
@@ -63,7 +63,7 @@ export default function Contact() {
                     <i className="fas fa-envelope text-xl"></i>
                   </div>
                   <div className="ml-4">
-                    <h4 className="font-bold">Email</h4>
+                    <h4 className="font-bold gradient-text">Email</h4>
                     <p className="text-gray-300">mr.bhonehtet@gmail.com</p>
                   </div>
                 </div>
@@ -72,7 +72,7 @@ export default function Contact() {
                     <i className="fas fa-phone-alt text-xl"></i>
                   </div>
                   <div className="ml-4">
-                    <h4 className="font-bold">Phone</h4>
+                    <h4 className="font-bold gradient-text">Phone</h4>
                     <p className="text-gray-300">+95 9965091291, +95 95091291</p>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ export default function Contact() {
                   </div>
 
                   <div className="ml-4">
-                    <h4 className="font-bold">Social Media</h4>
+                    <h4 className="font-bold gradient-text">Social Media</h4>
                     <div className="flex space-x-4 mt-2">
                       <a href="#" className="text-gray-300 hover:text-blue-400 transition duration-300">
                         <i className="fab fa-twitter text-xl"></i>
