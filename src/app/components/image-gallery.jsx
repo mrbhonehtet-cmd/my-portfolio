@@ -8,11 +8,11 @@ import { useState } from "react";
 
 const images = [
   {
-    src: "https://www.dropbox.com/scl/fi/jdh2mmk8bfmwhs7lauavc/my-cv-gusto-iot-certi.jpg?dl=1",
+    src: "/assets/Lanyard/my cv gusto iot certi.jpg",
     alt: "Gusto IoT Certificate",
   },
   {
-    src: "https://www.dropbox.com/scl/fi/jqu625kpzhyintfodxnuk/my-cv-certi.jpg?dl=1",
+    src: "/assets/Lanyard/my cv certi.jpg",
     alt: "‌တက္ကသိုလ်ဝင်စာမေးပွဲအောင်လက်မှတ်",
   },
 ];
@@ -111,3 +111,4 @@ export default function ImageGallery() {
     </section>
   );
 }
+
