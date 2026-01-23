@@ -38,6 +38,7 @@ export default function NavBar() {
               <a href="#about" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">About</a>
               <a href="#skills" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">Skills</a>
               <a href="#projects" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">Projects</a>
+              <a href="#image-gallery" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">Certificates</a>
               <a href="#contact" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">Contact</a>
             </div>
           </div>
@@ -54,7 +55,8 @@ export default function NavBar() {
           <a href="#about" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">About</a>
           <a href="#skills" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">Skills</a>
           <a href="#projects" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">Projects</a>
-          <a href="#contact" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">Contact</a>
+          <a href="#image-gallery" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">Certificates</a>
+         <a href="#contact" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">Contact</a>
         </div>
       </div>
     </nav>
