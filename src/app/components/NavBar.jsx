@@ -34,11 +34,12 @@ export default function NavBar() {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-center space-x-8">
-              <a href="#home" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">Home</a>
+             
               <a href="#about" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">About</a>
+              <a href="#image-gallery" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">Certificates</a>
               <a href="#skills" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">Skills</a>
               <a href="#projects" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">Projects</a>
-              <a href="#image-gallery" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">Certificates</a>
+             
               <a href="#contact" className="nav-link text-gray-300 hover:text-white px-3 py-2 text-sm font-medium">Contact</a>
             </div>
           </div>
@@ -53,9 +54,9 @@ export default function NavBar() {
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           <a href="#home" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">Home</a>
           <a href="#about" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">About</a>
+           <a href="#image-gallery" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">Certificates</a>
           <a href="#skills" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">Skills</a>
           <a href="#projects" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">Projects</a>
-          <a href="#image-gallery" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">Certificates</a>
          <a href="#contact" className="block px-3 py-2 text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 rounded-md">Contact</a>
         </div>
       </div>
