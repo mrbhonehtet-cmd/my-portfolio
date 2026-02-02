@@ -10,7 +10,7 @@ export default function Footer() {
             <a href="#" className="text-gray-400 hover:text-white transition duration-300">
               <i className="fab fa-twitter text-xl"></i>
             </a>
-            <a href="www.linkedin.com/in/saw-bhone-htet-b7b89736b" className="text-gray-400 hover:text-blue-600 transition duration-300">
+            <a href="www.linkedin.com/in/zixing002" className="text-gray-400 hover:text-blue-600 transition duration-300">
               <i className="fab fa-linkedin text-xl"></i>
             </a>
             <a href="https://t.me/Zi_Xing002" className="text-gray-400 hover:text-pink-500 transition duration-300">
