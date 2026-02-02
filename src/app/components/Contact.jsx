@@ -87,7 +87,7 @@ export default function Contact() {
                       <a href="#" className="text-gray-300 hover:text-blue-400 transition duration-300">
                         <i className="fab fa-twitter text-xl"></i>
                       </a>
-                      <a href="www.linkedin.com/in/zixing002" className="text-gray-300 hover:text-blue-600 transition duration-300">
+                      <a href="https://www.linkedin.com/in/zixing002" className="text-gray-300 hover:text-blue-600 transition duration-300">
                         <i className="fab fa-linkedin text-xl"></i>
                       </a>
                       <a href="https://t.me/Zi_Xing002" className="text-gray-300 hover:text-pink-500 transition duration-300">
