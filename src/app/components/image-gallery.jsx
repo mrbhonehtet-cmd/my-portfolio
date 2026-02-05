@@ -16,7 +16,7 @@ const images = [
     alt: "‌တက္ကသိုလ်ဝင်စာမေးပွဲအောင်လက်မှတ်",
   },
    {
-    src: "/assets/Lanyard/shwebank.jpg",
+    src: "/assets/Lanyard/shwebank1.jpg",
     alt: "‌Shwe Bank Certificate",
   },
 ];
@@ -115,5 +115,6 @@ export default function ImageGallery() {
     </section>
   );
 }
+
 
 
