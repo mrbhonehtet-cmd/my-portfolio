@@ -15,6 +15,10 @@ const images = [
     src: "/assets/Lanyard/my cv certi.jpg",
     alt: "‌တက္ကသိုလ်ဝင်စာမေးပွဲအောင်လက်မှတ်",
   },
+   {
+    src: "/assets/Lanyard/shwebank.jpg",
+    alt: "‌Shwe Bank Certificate",
+  },
 ];
 
 export default function ImageGallery() {
@@ -111,4 +115,5 @@ export default function ImageGallery() {
     </section>
   );
 }
+
 
