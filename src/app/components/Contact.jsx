@@ -58,8 +58,8 @@ try {
 
           {koko && (
           <div className="fixed inset-0 z-50 flex items-center justify-center p-4 backdrop-blur">
-            <div className="bg-gray-900 rounded-lg p-6 pt-5 w-full max-w-md">
-            <button onClick={() => setkoko(false)} className=" font-bold ml-95 sm:ml-95 gradient-text rounded-full  hover:text-white text-4xl">✕</button>
+            <div className="relative bg-gray-900 rounded-lg p-6 pt-5 w-full max-w-md">
+            <button onClick={() => setkoko(false)} className=" font-bold absolute top-4 right-4 gradient-text rounded-full text-4xl">✕</button>
 
              <h3 className="text-2xl font-bold mb-2 text-white text-center">Message Box</h3>
              
