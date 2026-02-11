@@ -69,8 +69,8 @@ try {
               <input name="name" placeholder="Your Name" onChange={sendmassagechange} required className="w-full p-2 bg-gray-500 rounded-lg focus:ring-2 focus:ring-blue-500"/>
               <h4 className="text-lg font-semibold text-white">company</h4>
               <input name="company" placeholder="Company Name" onChange={sendmassagechange} required className="w-full p-2 bg-gray-500 rounded-lg focus:ring-2 focus:ring-blue-500"/>
-              <h4 className="text-lg font-semibold text-white">role</h4>
-              <input name="role" placeholder="Role" onChange={sendmassagechange} required className="w-full p-2 bg-gray-500 rounded-lg focus:ring-2 focus:ring-blue-500"/>
+              <h4 className="text-lg font-semibold text-white">G-mail</h4>
+              <input name="role" type="email" placeholder="gmail" onChange={sendmassagechange} required className="w-full p-2 bg-gray-500 rounded-lg focus:ring-2 focus:ring-blue-500"/>
               <h4 className="text-lg font-semibold text-white">message</h4>
               <textarea name="sendmassage" placeholder="Your Message" onChange={sendmassagechange}  required className="w-full p-2 bg-gray-500 rounded-lg focus:ring-2 focus:ring-blue-500"/>
               <button type="submit" disabled={sending} className={`${sending ? "w-full py-2 px-4 rounded-lg bg-gray-600 cursor-not-allowed" : 
