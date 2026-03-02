@@ -8,7 +8,7 @@ const projects = [
     labelcolor:"bg-blue-500",
     pname:"Ai Chatbot",
     img:"https://plus.unsplash.com/premium_photo-1726550550053-6e5f7190f1bf?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YWklMjBjaGF0JTIwYm90fGVufDB8fDB8fHww",
-    description:"A modern AI-powered chatbot for my personl answer and other things.",
+    description:"A modern AI-powered chatbot for my personl answer and other things. Noted, all algorithm are work but i can't afford the Ai api for chat responding anymore that why it must not respond ",
     link:"https://teal-chebakia-4bab69.netlify.app/",
     icons: [
       "fab fa-html5 text-orange-500",
